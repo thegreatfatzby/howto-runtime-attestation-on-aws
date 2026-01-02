@@ -42,7 +42,7 @@ Get dependencies in place
 ```bash
 sudo apt update
 sudo apt upgrade -y
-sudo apt install -y build-essential amazon-ec2-utils
+sudo apt install -y build-essential amazon-ec2-utils flex bison
 sudo apt install -y tmux git rsync # For eks image
 sudo apt install -y msr-tools libssl-dev pkg-config
 sudo curl --proto '=https' --tlsv1.3 -sSf https://sh.rustup.rs | sh -s -- -y
